@@ -36,7 +36,7 @@ def alarm():
 			winsound.PlaySound("sound.wav",winsound.SND_ASYNC)
 
 # Add Labels, Frame, Button, Optionmenus
-Label(root,text="Alarm Clock By Swapnil",font=("Helvetica 20 bold"),fg="orange").pack(pady=10)
+Label(root,text="Alarm Clock",font=("Helvetica 20 bold"),fg="orange").pack(pady=10)
 Label(root,text="Set Time",font=("Helvetica 15 bold")).pack()
 
 frame = Frame(root)
